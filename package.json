@@ -1,0 +1,37 @@
+{
+  "name": "popuparcade",
+  "version": "1.0.0",
+  "description": "anna's personal portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-moment": "^1.0.1",
+    "angular-ui-router": "^1.0.0-beta.3",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6",
+    "knex": "^0.12.6",
+    "lite-server": "^2.2.2",
+    "path": "^0.12.7",
+    "pg": "^6.1.2",
+    "ui-bootstrap": "^0.1.6"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "scripts": {
+    "heroku-postbuild": "knex migrate:latest",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annapanana/popuparcade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annapanana/popuparcade/issues"
+  },
+  "homepage": "https://github.com/annapanana/popuparcade#readme"
+}
