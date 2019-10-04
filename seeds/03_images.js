@@ -7,7 +7,31 @@ exports.seed = function(knex, Promise) {
         // Name of project here
         knex('images').insert({
           project_id: 1,
-          image_url: 'https://storage.googleapis.com/annapanana/Alan/Screen%20Shot%202019-09-28%20at%203.12.33%20PM.png'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Raas%20App/Screen%20Shot%202019-09-28%20at%204.44.14%20PM.png'
+        }),
+        knex('images').insert({
+          project_id: 1,
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Raas%20App/Screen%20Shot%202019-09-28%20at%204.44.28%20PM.png'
+        }),
+        knex('images').insert({
+          project_id: 1,
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Raas%20App/Screen%20Shot%202019-09-28%20at%204.44.45%20PM.png'
+        }),
+        knex('images').insert({
+          project_id: 2,
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Shopify%20Stores/ShopifyStore.gif'
+        }),
+        knex('images').insert({
+          project_id: 4,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/SVG%20Renderer/SVGRenderer.gif'
+        }),
+        knex('images').insert({
+          project_id: 5,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/Insights%20Explore/InsightsExplore.gif'
+        }),
+        knex('images').insert({
+          project_id: 6,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/Engage%20Components/EngageComponents.gif'
         }),
       ]);
     })

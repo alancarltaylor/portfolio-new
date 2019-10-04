@@ -1,17 +1,20 @@
 <!-- <div class="container"> -->
 
   <div class="row">
-    <div class="col-md-6">
-      <div>
+    <div class="col-md-7">
+      <div ng-if="$ctrl.slides.length > 1">
         <div uib-carousel active="$ctrl.active" interval="$ctrl.myInterval" no-wrap="$ctrl.noWrapSlides">
           <div uib-slide ng-repeat="slide in $ctrl.slides track by slide.id" index="slide.id">
             <img class="carousel-image" ng-src="{{slide.image}}" style="margin:auto;">
           </div>
         </div>
       </div>
+      <div ng-if="$ctrl.slides.length === 1" class="carousel-image">
+        <img ng-click="$ctrl.openLightboxModal(0)" ng-src="{{$ctrl.slides[0].image}}" />
+      </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-5">
       <!-- Title -->
       <h3>{{$ctrl.project.name}}</h3>
       <!-- Role -->

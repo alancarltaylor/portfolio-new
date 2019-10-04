@@ -45,5 +45,12 @@
        var win = window.open(vm.project.live_link, '_blank');
        win.focus();
      };
+
+     // TODO Make this work
+     vm.openLightboxModal = function (index) {
+       console.log('open lightbox');
+        var win = window.open(vm.slides[index].image);
+        win.focus();
+     };
    }
 })();
