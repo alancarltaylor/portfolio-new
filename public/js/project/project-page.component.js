@@ -47,10 +47,10 @@
      };
 
      // TODO Make this work
-     vm.openLightboxModal = function (index) {
-       console.log('open lightbox');
-        var win = window.open(vm.slides[index].image);
-        win.focus();
-     };
+     // vm.openLightboxModal = function (index) {
+     //   console.log('open lightbox');
+     //    var win = window.open(vm.slides[index].image);
+     //    win.focus();
+     // };
    }
 })();

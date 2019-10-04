@@ -6,9 +6,9 @@
       controller: controller
     });
 
-    controller.$inject = ['$http', '$state', '$stateParams', 'bootstrapLightbox'];
+    controller.$inject = ['$http', '$state', '$stateParams'];
 
-    function controller($http, $state, $stateParams, bootstrapLightbox) {
+    function controller($http, $state, $stateParams) {
       const vm = this;
       vm.isNavCollapsed = true;
       // vm.isCollapsed = false;
