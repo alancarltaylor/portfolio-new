@@ -1,6 +1,5 @@
 'use strict';
 (function() {
-  // console.log("archive-list loaded");
   angular.module('app')
     .component('featuredList', {
       controller: controller,
@@ -10,6 +9,7 @@
     controller.$inject = ['$http', '$state', '$stateParams'];
 
     function controller($http, $state, $stateParams) {
+      console.log('running the controller');
       const vm = this;
       vm.activeFilter = "all";
       var archiveData = [];
@@ -25,7 +25,6 @@
 
       vm.updateFilter = function(newFilter) {
         vm.activeFilter = newFilter;
-        // Clear archive and only display projects for this filter
         vm.archive = [];
         if (newFilter === "all") {
           vm.archive = archiveData;

@@ -2,7 +2,7 @@
 (function() {
   // console.log("archive-list loaded");
   angular.module('app')
-    .component('archivelist', {
+    .component('archiveList', {
       controller: controller,
       templateUrl: "js/archive/archive-list.template.html"
     });

@@ -31,13 +31,13 @@
         name: "archive",
         parent: "app",
         url: "/archive",
-        component: "archivelist"
+        component: "archiveList"
       })
       .state({
         name: "featured",
         parent: "app",
         url: "/featured",
-        component: "featuredlist"
+        component: "featuredList"
       })
       .state({
         name: "projectpage",
