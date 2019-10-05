@@ -8,7 +8,7 @@
 
   function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
-    
+
     $stateProvider
       .state({
         name: "app",
@@ -32,6 +32,12 @@
         parent: "app",
         url: "/archive",
         component: "archivelist"
+      })
+      .state({
+        name: "featured",
+        parent: "app",
+        url: "/featured",
+        component: "featuredlist"
       })
       .state({
         name: "projectpage",

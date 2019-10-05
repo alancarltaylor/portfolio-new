@@ -71,12 +71,6 @@ exports.seed = function(knex, Promise) {
           live_link: '[TBD]',
           thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/utilities.svg',
         }),
-        // Big Data Tool
-        // My Sites
-        // Raz App
-        // Marketplace App
-        //
-        // SVG Renderer
       ]);
     })
     .then(() => {
