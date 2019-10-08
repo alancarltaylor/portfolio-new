@@ -7,10 +7,6 @@ exports.seed = function(knex, Promise) {
         // Name of project here
         knex('images').insert({
           project_id: 1,
-          image_url: 'https://storage.googleapis.com/alan_portfolio/Raas%20App/Screen%20Shot%202019-09-28%20at%204.44.14%20PM.png'
-        }),
-        knex('images').insert({
-          project_id: 1,
           image_url: 'https://storage.googleapis.com/alan_portfolio/Raas%20App/Screen%20Shot%202019-09-28%20at%204.44.28%20PM.png'
         }),
         knex('images').insert({
