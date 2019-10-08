@@ -109,6 +109,7 @@
 .card-img-top {
   max-width: 300px;
   border-radius: 3px;
+  min-height: 300px;
 }
 
 .card-img-bg {

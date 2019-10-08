@@ -1,11 +1,12 @@
   <div class="filter-archive">
     <button type="button" class="btn filter-button" ng-click="$ctrl.updateFilter('all')" ng-class="{'filter-button-active': $ctrl.activeFilter === 'all'}"><h5>All</h5></button>
-    <button type="button" class="btn filter-button" ng-click="$ctrl.updateFilter('web')" ng-class="{'filter-button-active': $ctrl.activeFilter === 'web'}"><h5>Uplight</h5></button>
-    <button type="button" class="btn filter-button" ng-click="$ctrl.updateFilter('game')" ng-class="{'filter-button-active': $ctrl.activeFilter === 'game'}"><h5>Zayo</h5></button>
+    <button type="button" class="btn filter-button" ng-click="$ctrl.updateFilter('data-vis')" ng-class="{'filter-button-active': $ctrl.activeFilter === 'data-vis'}"><h5>Data-Vis</h5></button>
+    <button type="button" class="btn filter-button" ng-click="$ctrl.updateFilter('ecommerce')" ng-class="{'filter-button-active': $ctrl.activeFilter === 'ecommerce'}"><h5>ECommerce</h5></button>
+    <button type="button" class="btn filter-button" ng-click="$ctrl.updateFilter('personal')" ng-class="{'filter-button-active': $ctrl.activeFilter === 'personal'}"><h5>Personal Projects</h5></button>
   </div>
 
 <div class="card-group">
-  <div ng-repeat="project in $ctrl.archive | orderBy: '-id'">
+  <div ng-repeat="project in $ctrl.archive | orderBy: 'id'">
     <div class="card">
       <!-- <a ng-show="$ctrl.photosLoaded" ng-click="$ctrl.selectProject(project.id)"><img class="card-img-bg fade" src="https://s3-us-west-2.amazonaws.com/popuparcade.com/Style_Resources/bg-vignette.png" alt=""></a> -->
       <a ng-click="$ctrl.selectProject(project.id)" href="{{project.id}}"><img class="card-img-top fade" ng-src="{{project.thumbnail}}" alt="Card image cap"></a>

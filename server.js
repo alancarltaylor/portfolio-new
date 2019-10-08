@@ -7,7 +7,6 @@ const path = require('path');
 const port = process.env.PORT || 8000;
 
 const archive = require('./routes/archive');
-const featured = require('./routes/featured');
 
 app.use(bodyParser.json());
 // app.use('/archive', archive);
@@ -22,7 +21,6 @@ app.use(bodyParser.urlencoded({
 
 // app.use(express.static('./public'));
 app.use(archive);
-app.use(featured);
 
 app.use('*', function(req, res, next) {
   res.sendFile('index.html', {root: path.join(__dirname, 'public')})

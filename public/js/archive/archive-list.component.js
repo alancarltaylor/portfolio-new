@@ -17,6 +17,7 @@
 
       vm.$onInit = function() {
         $http.get('/app/archive').then(function (response) {
+          console.log('lol, about to sort');
           archiveData = response.data;
           vm.archive = response.data;
           vm.photosLoaded = true;
@@ -25,13 +26,14 @@
 
       vm.updateFilter = function(newFilter) {
         vm.activeFilter = newFilter;
+        console.log('archiveData: ', archiveData);
         // Clear archive and only display projects for this filter
         vm.archive = [];
         if (newFilter === "all") {
           vm.archive = archiveData;
         } else {
           for (var i = 0; i < archiveData.length; i++) {
-            if (archiveData[i].type === newFilter) {
+            if (archiveData[i].tags.includes(newFilter)) {
               vm.archive.push(archiveData[i]);
             }
           }

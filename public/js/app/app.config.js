@@ -16,12 +16,6 @@
         component: "app"
       })
       .state({
-        name: "home",
-        parent: "app",
-        url: "/",
-        component: "home"
-      })
-      .state({
         name: "about",
         parent: "app",
         url: "/about",
@@ -30,19 +24,13 @@
       .state({
         name: "archive",
         parent: "app",
-        url: "/archive",
+        url: "/",
         component: "archiveList"
-      })
-      .state({
-        name: "featured",
-        parent: "app",
-        url: "/featured",
-        component: "featuredList"
       })
       .state({
         name: "projectpage",
         parent: "app",
-        url: "/project-page/:projectId",
+        url: "/projects/:projectId",
         component: "projectpage",
         params: {
           projectId: "1"

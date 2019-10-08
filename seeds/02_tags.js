@@ -27,7 +27,7 @@ exports.seed = function(knex, Promise) {
         }),
         knex('tags').insert({
           id: 6,
-          tag_name: 'data-viz'
+          tag_name: 'data-vis'
         }),
         knex('tags').insert({
           id: 7,
@@ -60,6 +60,18 @@ exports.seed = function(knex, Promise) {
         knex('tags').insert({
           id: 15,
           tag_name: 'C3JS'
+        }),
+        knex('tags').insert({
+          id: 16,
+          tag_name: 'ecommerce'
+        }),
+        knex('tags').insert({
+          id: 17,
+          tag_name: 'professional'
+        }),
+        knex('tags').insert({
+          id: 18,
+          tag_name: 'personal'
         }),
       ]);
     })
