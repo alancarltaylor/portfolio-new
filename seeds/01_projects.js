@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 1,
           name: 'Raas App',
-          brief: '"Rebates as a service" app. This app finds eligible government rebates for a customer, and sends them as instantly redeemable coupons.',
+          brief: '"Rebates as a service" app. This app finds eligible government rebates for a customer, and sends them as redeemable coupons.',
           description: 'This is an Angular app, that steps the user through the process of receiving an eligible rebate coupon. One of the first products I worked on at Uplight (Simple Energy), I provided functionality to auto-populate the forms with query params, and also set up vanity url routing, configurable per client.',
           type: 'angular',
           role: 'Front End Developer',
@@ -19,8 +19,8 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 2,
           name: 'Shopify Stores',
-          brief: 'Supported the development of over 20 Shopify stores, surviving 2 Black Friday - Cyber Mondays on call.',
-          description: 'Shopify stores were spun up for new utilities Simple Energy began contracting with. Followed utility style guides to a "T", and incorporated new feature sets requested by utilities. The major challenge with these stores were processing instant rebates, and calculating the resulting tax correctly.',
+          brief: 'This application managed the builds, configuration, and deploys for over 20 Shopify stores serving millions of customers.',
+          description: 'These Shopify stores were spun up for new utilities Simple Energy began contracting with. The configuration allowed utility style guides to be followed exactly, and all feature sets could be flagged. The major challenge with these stores were processing instant rebates, and calculating the resulting tax correctly.',
           type: 'ecommerce',
           role: 'Front End Developer',
           date: 'November 2017',
@@ -41,7 +41,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 4,
           name: 'SVG Renderer',
-          brief: 'A backend SVG renderer, built with Node and React.',
+          brief: 'A backend SVG renderer, built with Node and React. This rendered SVGs into XML which was then sent to printing companies.',
           description: 'A separate backend service would hit this Node app with API calls, passing data in an expected schema. The SVG renderer would then validate that data, input it into the templates, and return an SVG that could be used for printable paper reports, or attached in an email.',
           type: 'data-vis',
           role: 'Front End Developer',
@@ -52,7 +52,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 5,
           name: 'Insights Explore',
-          brief: 'An easily configurable charting component that displays a utility customers energy data.',
+          brief: 'A configurable charting component that displays a utility customers energy data. The controllers can generate multiple graphs.',
           description: 'Initially built over two sprints, then iterated on constantly, this React component parses a large set of data into a meaningful interface. Built with pure SVGs, this is the most complex product I worked on at Uplight (Simple Energy).',
           type: 'data-vis',
           role: 'Front End Developer',
@@ -63,7 +63,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 6,
           name: 'Engage Components',
-          brief: 'Easily embeddable standalone react components, bundled into an NPM package.',
+          brief: 'Easily embeddable standalone react components, bundled into an NPM package, and served with up with a node app.',
           description: 'This is a library of react components that integrate with Uplight (Simple Energy) backend services to encourage, engage, and educate utility customers on their energy usage.',
           type: 'react',
           role: 'Front End Developer',
@@ -74,7 +74,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 7,
           name: 'CLI Portfolio',
-          brief: 'Legacy portfolio site, built to look and function like a CLI.',
+          brief: 'Legacy portfolio site, built to look and function like a CLI. Showcases my portfoloio as of September 2017.',
           description: 'This is a fun project, trying to get a front end app to look and function like a CLI. I used SASS mixins to acheive the look, and listened to keyboard events to build the functionality. Sample commands: "hello", "clear", "projects", "resume", "linkedin". It also responds to the up and down keyboard commands to iterate through past CLI entries.',
           type: 'angular',
           role: 'Front End Developer',
@@ -96,7 +96,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 9,
           name: 'Birth Death Rebirth',
-          brief: 'Discover your past 5 lives with this handy reincarnation app!',
+          brief: 'Discover your past 5 lives with this handy reincarnation app! Built using Wikipedia\'s API, and a touch of mystery.',
           description: 'This is the very first javascript project that I ever built. It is integrated with the Wikipedia API, to pull the user\'s past five lives on this Earth. All that is required is a birthdate and some black magic, and the app is able to generate, not only the users past five lives, but also the misadventures ocurring in between them.',
           type: 'javascript',
           role: 'Front End Developer',
