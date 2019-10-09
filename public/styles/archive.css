@@ -287,6 +287,7 @@ p {
   flex-flow: row;
   justify-content: center;
   border-radius: 3px;
+  flex-wrap: wrap;
 }
 
 .filter-button {
