@@ -29,6 +29,22 @@ exports.seed = function(knex, Promise) {
           project_id: 6,
           image_url: 'https://storage.cloud.google.com/alan_portfolio/Engage%20Components/EngageComponents.gif'
         }),
+        knex('images').insert({
+          project_id: 3,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/Smud%20Services%20App/Services-app-demo.gif'
+        }),
+        knex('images').insert({
+          project_id: 7,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/PersonalProjects/legacyCLI.gif'
+        }),
+        knex('images').insert({
+          project_id: 8,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/PersonalProjects/vidiot.gif'
+        }),
+        knex('images').insert({
+          project_id: 9,
+          image_url: 'https://storage.cloud.google.com/alan_portfolio/PersonalProjects/reincarnation1.gif'
+        }),
       ]);
     })
     .then(() => {

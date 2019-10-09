@@ -30,7 +30,7 @@
       .state({
         name: "projectpage",
         parent: "app",
-        url: "/projects/:projectId",
+        url: "/:projectId",
         component: "projectpage",
         params: {
           projectId: "1"
