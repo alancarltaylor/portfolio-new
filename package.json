@@ -31,11 +31,12 @@
   },
   "engines": {
     "node": "8.1.4",
+    "npm": "5.2.0"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/annapanana/popuparcade/issues"
+    "url": "https://github.com/alancarltaylor/portfolio-new/issues"
   },
-  "homepage": "https://github.com/annapanana/popuparcade#readme"
+  "homepage": "https://github.com/alancarltaylor/portfolio-new#readme"
 }
