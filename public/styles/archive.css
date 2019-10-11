@@ -316,6 +316,10 @@ p {
   margin-bottom: 10px;
 }
 
+.singular-image {
+  width: 100%;
+}
+
 .img-thumbnail {
   padding: 10px;
   max-height: 200px;
