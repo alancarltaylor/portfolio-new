@@ -74,7 +74,7 @@ exports.seed = function(knex, Promise) {
         knex('projects').insert({
           id: 7,
           name: 'CLI Portfolio',
-          brief: 'Legacy portfolio site, built to look and function like a CLI. Showcases my portfoloio as of September 2017.',
+          brief: 'Legacy portfolio site, built to look and function like a CLI. Showcases my portfolio as of September 2017.',
           description: 'This is a fun project, trying to get a front end app to look and function like a CLI. I used SASS mixins to acheive the look, and listened to keyboard events to build the functionality. Sample commands: "hello", "clear", "projects", "resume", "linkedin". It also responds to the up and down keyboard commands to iterate through past CLI entries.',
           type: 'angular',
           role: 'Front End Developer',
