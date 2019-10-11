@@ -24,6 +24,7 @@
 @media (max-width: 376px) {
   .navbar-brand {
     width: 250px;
+    margin-bottom: 5px;
   }
 }
 
