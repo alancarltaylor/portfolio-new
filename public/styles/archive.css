@@ -21,7 +21,7 @@
   font-size: 22px;
   padding-top: 20px;
 }
-@media (max-width: 370px) {
+@media (max-width: 376px) {
   .navbar-brand {
     width: 250px;
   }
