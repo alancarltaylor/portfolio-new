@@ -14,7 +14,7 @@ exports.seed = function(knex, Promise) {
           role: 'Front End Developer',
           date: 'November 2017',
           live_link: 'https://comed.simpleenergy.io/stores/nest/collections/smart-thermostats',
-          thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/Instant-rebates.png',
+          thumbnail: 'https://storage.googleapis.com/alan_portfolio/Thumbs/Instant-rebates.png',
         }),
         knex('projects').insert({
           id: 2,
@@ -47,7 +47,7 @@ exports.seed = function(knex, Promise) {
           role: 'Front End Developer',
           date: 'May 2018',
           live_link: '',
-          thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/svgrenderer4.svg',
+          thumbnail: 'https://storage.googleapis.com/alan_portfolio/Thumbs/svgrenderer4.svg',
         }),
         knex('projects').insert({
           id: 5,
@@ -58,7 +58,7 @@ exports.seed = function(knex, Promise) {
           role: 'Front End Developer',
           date: 'March 2019',
           live_link: '',
-          thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/insights-explore.svg',
+          thumbnail: 'https://storage.googleapis.com/alan_portfolio/Thumbs/insights-explore.svg',
         }),
         knex('projects').insert({
           id: 6,
@@ -69,7 +69,7 @@ exports.seed = function(knex, Promise) {
           role: 'Front End Developer',
           date: 'June 2018',
           live_link: '',
-          thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/engage-components.svg',
+          thumbnail: 'https://storage.googleapis.com/alan_portfolio/Thumbs/engage-components.svg',
         }),
         knex('projects').insert({
           id: 7,
@@ -80,7 +80,7 @@ exports.seed = function(knex, Promise) {
           role: 'Front End Developer',
           date: 'September 2017',
           live_link: 'http://alancarltaylor.surge.sh/',
-          thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/legacyPortfolio1.svg',
+          thumbnail: 'https://storage.googleapis.com/alan_portfolio/Thumbs/legacyPortfolio1.svg',
         }),
         knex('projects').insert({
           id: 8,
@@ -91,7 +91,7 @@ exports.seed = function(knex, Promise) {
           role: 'Front End Developer',
           date: 'July 2016',
           live_link: 'https://vidiot.herokuapp.com',
-          thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/vidiot1.svg',
+          thumbnail: 'https://storage.googleapis.com/alan_portfolio/Thumbs/vidiot1.svg',
         }),
         knex('projects').insert({
           id: 9,

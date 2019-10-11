@@ -19,31 +19,31 @@ exports.seed = function(knex, Promise) {
         }),
         knex('images').insert({
           project_id: 4,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/SVG%20Renderer/SVGRenderer.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/SVG%20Renderer/SVGRenderer.gif'
         }),
         knex('images').insert({
           project_id: 5,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/Insights%20Explore/InsightsExplore.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Insights%20Explore/InsightsExplore.gif'
         }),
         knex('images').insert({
           project_id: 6,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/Engage%20Components/EngageComponents.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Engage%20Components/EngageComponents.gif'
         }),
         knex('images').insert({
           project_id: 3,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/Smud%20Services%20App/Services-app-demo.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/Smud%20Services%20App/Services-app-demo.gif'
         }),
         knex('images').insert({
           project_id: 7,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/PersonalProjects/legacyCLI.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/PersonalProjects/legacyCLI.gif'
         }),
         knex('images').insert({
           project_id: 8,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/PersonalProjects/vidiot.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/PersonalProjects/vidiot.gif'
         }),
         knex('images').insert({
           project_id: 9,
-          image_url: 'https://storage.cloud.google.com/alan_portfolio/PersonalProjects/reincarnation1.gif'
+          image_url: 'https://storage.googleapis.com/alan_portfolio/PersonalProjects/reincarnation1.gif'
         }),
       ]);
     })
