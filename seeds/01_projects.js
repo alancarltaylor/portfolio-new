@@ -79,7 +79,7 @@ exports.seed = function(knex, Promise) {
           type: 'angular',
           role: 'Front End Developer',
           date: 'September 2017',
-          live_link: 'http://alancarltaylor.com',
+          live_link: 'http://alancarltaylor.surge.sh/',
           thumbnail: 'https://storage.cloud.google.com/alan_portfolio/Thumbs/legacyPortfolio1.svg',
         }),
         knex('projects').insert({
