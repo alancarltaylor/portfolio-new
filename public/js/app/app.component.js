@@ -19,8 +19,6 @@
 
         var mq = window.matchMedia( "(min-width: 500px)" );
         mq.onchange = function() {
-          console.log(mq.matches);
-
         };
       };
     }
