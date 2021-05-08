@@ -8,6 +8,6 @@ module.exports = {
   },
   production: {
     client: 'pg',
-    connection: process.env.HEROKU_POSTGRESQL_OLIVE_URL
+    connection: `${process.env.HEROKU_POSTGRESQL_OLIVE_URL}?ssl=true`
   }
 };
